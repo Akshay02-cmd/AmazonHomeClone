@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #cccccc;
+}
+
+.nav-logo{
+    width: 100px;
+    height: 50px;
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(resources/navlogo.png);
+}
+
+.border{
+    border:2px solid transparent;
+}
+
+.border:hover {
+    border:2px solid white;
+}
+
+.fi{
+    margin-left: 14px;
+    font-size: 0.85rem;
+    color: white;
+}
+
+.add-icon{
+    align-items: center;
+    display: flex;
+}
+
+.second{
+    margin: 3px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.nav-address{
+    color: #ffffff
+}
+
+.nav-search{
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #febd86;
+    width: 650px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-input{
+    border: none;
+    width:100%;
+    font-size: 1rem;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 45px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-icon{
+width: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.3rem;
+}
+
+.language{
+    background-color: black;
+    display: flex;
+}
+
+#lang{
+    background-color: black;
+    color: #cccccc;
+    font-weight: bolder;
+    border: none;
+    text-wrap-style:stable ;
+}
+
+.flag{
+    margin: 3px;
+    background-image: url(resources/flag.png);
+    background-size: cover;
+    width: 23px;
+    height: 17px;
+}
+
+.nav-SignIn{
+    color: #cccccc;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav-return{
+    color: #ffffff;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.panale{
+    height: 39px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+
+.panale-option{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panale-option p{
+    display: inline;
+    font-size: 0.85rem;
+    margin-left: 10px;
+}
+
+.shop{
+ font-size: 0.9rem;
+ font-weight: 700;
+}
+
+.hero-section{
+    background-image:url(resources/HERO.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 0.85rem;
+}
+
+.hero-msg a{
+ text-decoration: none;
+}
