@@ -5,7 +5,7 @@
 }
 
 
-.navbar{
+.navbar {
     height: 60px;
     background-color: black;
     display: flex;
@@ -14,48 +14,48 @@
     color: #cccccc;
 }
 
-.nav-logo{
+.nav-logo {
     width: 100px;
     height: 50px;
 }
 
-.logo{
+.logo {
     height: 50px;
     width: 100%;
     background-size: cover;
     background-image: url(resources/navlogo.png);
 }
 
-.border{
-    border:2px solid transparent;
+.border {
+    border: 2px solid transparent;
 }
 
 .border:hover {
-    border:2px solid white;
+    border: 2px solid white;
 }
 
-.fi{
+.fi {
     margin-left: 14px;
     font-size: 0.85rem;
     color: white;
 }
 
-.add-icon{
+.add-icon {
     align-items: center;
     display: flex;
 }
 
-.second{
+.second {
     margin: 3px;
     font-size: 1rem;
     color: #ffffff;
 }
 
-.nav-address{
+.nav-address {
     color: #ffffff
 }
 
-.nav-search{
+.nav-search {
     color: black;
     display: flex;
     justify-content: space-evenly;
@@ -65,17 +65,18 @@
     border: none;
     border-radius: 4px;
 }
-.nav-search:hover{
+
+.nav-search:hover {
     border: 2px solid orange;
 }
 
-.search-input{
+.search-input {
     border: none;
-    width:100%;
+    width: 100%;
     font-size: 1rem;
 }
 
-.search-select{
+.search-select {
     background-color: #f3f3f3;
     width: 45px;
     text-align: center;
@@ -84,28 +85,28 @@
     border: none;
 }
 
-.search-icon{
-width: 45px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 1.3rem;
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
 }
 
-.language{
+.language {
     background-color: black;
     display: flex;
 }
 
-#lang{
+#lang {
     background-color: black;
     color: #cccccc;
     font-weight: bolder;
     border: none;
-    text-wrap-style:stable ;
+    text-wrap-style: stable;
 }
 
-.flag{
+.flag {
     margin: 3px;
     background-image: url(resources/flag.png);
     background-size: cover;
@@ -113,28 +114,28 @@ font-size: 1.3rem;
     height: 17px;
 }
 
-.nav-SignIn{
+.nav-SignIn {
     color: #cccccc;
 }
 
-span{
+span {
     font-size: 0.7rem;
 }
 
-.nav-second{
+.nav-second {
     font-size: 1rem;
     font-weight: 700;
 }
 
-.nav-return{
+.nav-return {
     color: #ffffff;
 }
 
-.nav-cart i{
+.nav-cart i {
     font-size: 30px;
 }
 
-.panale{
+.panale {
     height: 39px;
     background-color: #222f3d;
     display: flex;
@@ -143,24 +144,24 @@ span{
     align-items: center;
 }
 
-.panale-option{
+.panale-option {
     width: 70%;
     font-size: 0.85rem;
 }
 
-.panale-option p{
+.panale-option p {
     display: inline;
     font-size: 0.85rem;
     margin-left: 10px;
 }
 
-.shop{
- font-size: 0.9rem;
- font-weight: 700;
+.shop {
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 
-.hero-section{
-    background-image:url(resources/HERO.jpg);
+.hero-section {
+    background-image: url(resources/HERO.jpg);
     background-size: cover;
     height: 350px;
     display: flex;
@@ -168,7 +169,7 @@ span{
     justify-content: center;
 }
 
-.hero-msg{
+.hero-msg {
     background-color: white;
     display: flex;
     align-items: center;
@@ -179,6 +180,84 @@ span{
     font-size: 0.85rem;
 }
 
-.hero-msg a{
- text-decoration: none;
+.hero-msg a {
+    text-decoration: none;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+
+.box {
+   margin: 15px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+
+.box-img{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.box-content a{
+    text-decoration: none;
+}
+
+.box1{
+    border: none;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.footer-panle1{
+    background-color:#37475a; ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+}
+
+.footer-panel2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #222f3e;
+    color: #e2e7e6;
+}
+
+ul{
+    margin:62px;
+    list-style: none;
+}
+
+li{
+    padding: 4px;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.footer-esential{
+    height: 70px;
+    background-color: #222f3e;
+}
+
+.foote-logo{
+    background-image: url(resources/logo.png);
 }
